@@ -1,0 +1,49 @@
+
+body {
+    background: radial-gradient(ellipse at center, #0f0f1a 0%, #000000 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #eee;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    padding: 50px 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #e63946;
+    margin-bottom: 10px;
+}
+
+.intro {
+    font-size: 1.2em;
+    color: #a8dadc;
+    margin-bottom: 30px;
+}
+
+.quote {
+    font-size: 1em;
+    line-height: 1.8;
+    max-width: 600px;
+    margin: auto;
+    color: #f1faee;
+}
+
+.enter-button {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 15px 30px;
+    background-color: #1d3557;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 1.1em;
+    transition: background-color 0.3s;
+}
+
+.enter-button:hover {
+    background-color: #457b9d;
+}
